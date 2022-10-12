@@ -26,6 +26,15 @@
     height: 50px;
 }
 
-.quarter {
+.light-bulb {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    width: 200px;
+}
 
+.light {
+    background-color: yellow;
+    color: black;
 }
