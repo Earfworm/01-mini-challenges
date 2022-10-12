@@ -100,10 +100,10 @@ toggleButton.addEventListener("click", () => {
   lightBulb.classList.toggle("light");
 });
 
-// endButton.addEventListener("click", () => {
-//   lightBulb.remove();
-//   lightButtons.forEach((button) => {
-//     button.setAttribute("disabled", true);
-//   })
-// });
+endButton.addEventListener("click", () => {
+  lightBulb.remove();
+  lightButtons.forEach((button) => {
+    button.setAttribute("disabled", true);
+  })
+});
 
