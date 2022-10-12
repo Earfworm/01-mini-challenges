@@ -5,14 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>01-mini-challenges</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <main>
-        <section  class="vending-machine"></section>
-        <section class="make-money"></section>
+        <section class="vending-machine">
+            <p class="total">Total: $0.00</p>
+            <div>
+                <button class="cola">Lime Cola $2.00</button>
+                <button class="peanuts">Salted Peanuts $3.00</button>
+                <button class="chocolate">Chocolate Bar $4.00</button>
+                <button class="gummies">Fruit Gummies $6.00</button>
+            </div>
+        </section>
+        <section class="make-money">
+            <form class="form">
+                <label for="numberInput">How Many?</label>
+                <input type="number" name="numberInput" id="numberInput">
+                <label for="coins">Which Coin?</label>
+               <select name="coins" id="coins">
+                <option class="penny" value="penny">Penny</option>
+                <option class="nickel" value="nickel">Nickel</option>
+                <option class="dime" value="dime">Dime</option>
+                <option class="quarter" value="quarter">Quarter</option>
+
+               </select>
+               <button>Make Money!</button>
+            </form>
+            <div class="coin-container"></div>
+        </section>
         <section class="light-bulb"></section>
 
+       
     </main>
     
     <script src="/script.js"></script>
